@@ -1,0 +1,20 @@
+{
+  "name": "adavies/328/pets",
+  "authors": [
+    {
+      "name": "Aubrey Davies",
+      "email": "adavies6@mail.greenriver.edu"
+    },
+    {
+      "name": "Cesar Escalona",
+      "email": "cescalona@mail.greenriver.edu"
+    },
+    {
+      "name": "David Pavlenko",
+      "email": "dpavlenko@mail.greenriver.edu"
+    }
+  ],
+  "require": {
+    "bcosca/fatfree-core": "dev-master"
+  }
+}
