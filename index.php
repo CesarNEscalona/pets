@@ -1,6 +1,6 @@
 <?php
 
-// This is my controller for the Dating project
+// This is my controller for the Pets project
 
 // Turn on error reporting
 ini_set('display_errors', 1);
@@ -16,8 +16,7 @@ $f3 = Base::instance();
 $f3->route('GET /', function(){
     // Display the home page
     $view = new Template();
-    echo "<h1>Pet Home</h1>";
-    //echo $view->render('views/home.html');
+    echo $view->render('views/home.html');
 });
 
 // Run Fat-Free
